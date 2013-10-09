@@ -1,0 +1,7 @@
+Transition: T1
+InputPlaces: (P1,3),(P2,1),(P3,6)
+OutputPlaces: (Q1,4),(Q2,2)
+
+Transition: T2
+InputPlaces: (Q2,2)
+OutputPlaces: (R1,0)

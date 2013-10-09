@@ -1,0 +1,64 @@
+print 10
+#should be (false, false)
+perfect
+complete
+
+#true
+remove 0
+#yay blank lines!
+
+
+
+
+print 10
+#should be (true, true)
+perfect
+complete
+
+#true, false
+remove -12
+remove 46
+
+#tests median (-32)
+median
+
+#tests nth (-46, -35, -48, -20, -22, false, false, false)
+nth 3
+nth 12
+nth 1
+nth 24
+nth 23
+#nth bunny
+nth -12
+nth 39
+
+#tests ranks (false, false, false, false, 1, 16, 4, 8)
+rank 1000
+rank 1
+rank 0
+rank -12
+rank -48
+rank -30
+rank -45
+rank -40
+
+print 10
+#should be (false, true)
+perfect
+complete
+
+#true
+remove -14
+
+print 10
+#should be (false, true)
+perfect
+complete
+
+#true
+remove -32
+
+print 10
+#should be (false, false)
+perfect
+complete

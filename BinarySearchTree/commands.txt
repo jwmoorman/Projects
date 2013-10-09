@@ -1,0 +1,124 @@
+#test printing
+print -10
+print 2
+print 5
+
+#test perfect/complete (both true)
+perfect
+complete
+
+#test nth (48, 12, 30, invalid, invalid)  
+nth 31
+nth 1
+nth 16
+nth -33
+nth 100
+
+#test median (30)
+median
+
+#test rank (31, 1, 16, invalid, invalid)
+rank 48
+rank 12
+rank 30
+rank -100
+rank 100
+
+#test remove (true, true, true, false, false, false)
+remove 48
+remove 44
+remove 46
+remove -100
+remove 100
+remove 1
+
+
+print 10
+#retest perfect/complete (false, true)
+perfect
+complete
+
+#remove more
+remove 42
+remove 38
+remove 36
+remove 34
+remove 32
+remove 28
+remove 26
+remove 23
+remove 21
+remove 18
+remove 16
+remove 14
+
+#print 10
+print 10
+#test perfect/complete again (false, true)
+perfect
+complete
+
+#remove a third time!
+remove 47
+
+print 10
+#test perfect/complete again (false, false)
+perfect
+complete
+
+#empty the tree
+remove 30
+remove 13
+remove 22
+remove 27
+remove 33
+remove 20
+remove 40
+remove 43
+remove 37
+remove 17
+remove 15
+remove 25
+remove 45
+remove 12
+remove 35
+
+#tests on empty tree:
+#printing
+print -10
+print 2
+print 5
+
+#test perfect/complete (both true)
+perfect
+complete
+
+#test nth (all false)  
+nth 31
+nth 1
+nth 16
+nth -33
+nth 100
+
+#test median (false)
+median
+
+#test rank (all false)
+rank 48
+rank 12
+rank 30
+rank -100
+rank 100
+
+#test remove (all false)
+remove 48
+remove 44
+remove 46
+remove -100
+remove 100
+remove 1
+
+print 10
+#retest perfect/complete (both still true)
+perfect
+complete
